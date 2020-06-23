@@ -788,6 +788,163 @@ margin-top: -50px;
 }
 
 
+/*-------Contact-Page----------------------------------------------*/
+.my-container_ContactPage {
+	
+	    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.bottom_Contact {
+	
+	border: 0px #ffffff solid ;
+	font-family: allan; 
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+
+.upper_Contact {
+	
+	border: 0px solid ;
+	
+}
+
+.email {
+	
+	border: 0px solid ;
+	color: #212020 ;
+}
+
+.phone {
+	
+	border: 0px solid ;
+	color: #212020 ;
+	
+}
+
+.Insta {
+	
+	border: 0px solid ; 
+	color: #212020 ;
+}
+
+
+.Twitter {
+	
+	border: 0px solid ;
+	color: #212020 ;
+	
+	
+	
+}
+
+.fontco {
+	
+	color: #DA0E15;
+}
+
+.email a:link {
+	
+	color: #212020;
+
+}
+
+.Insta a:link {
+	
+	color: #212020;
+
+}
+
+.Twitter a:link {
+	
+	color: #212020;
+	
+}
+.Contact_Form_Icon {
+	
+	color: #212020;
+}
+
+.contact-header{
+	color: #DA0E15;
+}
+
+
+.Contact_Form_Text {
+	
+	color: #212020;
+}
+
+.Insta_Link {
+	
+	color: #212020;
+}
+
+.Insta_Logo {
+	
+	color: #212020;
+}
+
+.Twitter_Text {
+	
+	color: #212020;
+	
+}
+
+.Twitter_Logo {
+	
+	color: #212020;
+}
+
+
+.Container_Form {
+	
+	
+	font-family: allan; 
+}
+
+.container_FormTitle {
+	
+	font-family: allan; 
+}
+
+.Col_Form {
+	
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 0px;
+	
+	}.Font_CP {
+	font-family: allan;
+}
+
+.contact-header {
+	
+	text-align: center;
+}
+
+.fa-8x {
+	
+	 font-family: 'FontAwesome';
+  src: url('your/path/fontawesome-webfont.eot?v=3.0.1');
+  src: url('your/path/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('your/path/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('your/path/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100px;
+}
+
+.btn-primary {
+	
+	background-color: #da0e15;
+}
+
 
 
 
