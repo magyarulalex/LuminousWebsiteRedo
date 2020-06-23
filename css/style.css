@@ -282,10 +282,14 @@ line-height: 40px;
 }
 
 /*------Product page-----*/
-
+.background-product {
+	background-color: transparent;
+	
+}
 .single-product {
 	margin-top: 70px;
 	padding-top: 20px;
+	background-color: transparent;
 	
 }
 
@@ -358,7 +362,7 @@ input {
     margin-top: 50px;
     margin-left: 5px;
     color: #DA0E15;
-    font-size: x-large;
+    font-size: 25px;
 	font-family: allan;
 }
 
@@ -380,14 +384,13 @@ input {
 
 
 .carousel-item {
-
-   width:100%;
-    
+    width: 100%;
+    margin-top: 80px;
 }
 
 .sizecalculator {
 	
-	background-color: #959393;
+	background-color: transparent;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	max-width: 100%;
@@ -424,14 +427,365 @@ input {
 }
 
 .background-product {
-	background-color: #E1DFDF;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 150px;
+	margin-right: 150px;
 	margin-top: 10px;
+	margin-bottom: 60px;
+	background-color: #FFFFFF
+}
+
+/*-----------Checkout-------*/
+
+
+
+.Checkout-title {
+	font-family: allan;
+	color: #DA0E15;
+	padding-top: 20px;
+}
+.formtext {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.Thankyoubtn {
+	background-color: #DA0E15;
+}
+.col.col6_Button center .btn.btn-primary.btn-lg.thankyoubtn {
 }
 
 
+/*------- ThankYou ------*/
+
+.container_ThankYou {
 	
+	font-weight: 800;
+	
+	margin-top: 72px;
+	margin-bottom: 40px;
+
+}
+
+.Text_ThankYou {
+	
+	font-size: 70px;
+	font-family: allan;
+	color: #DA0E15;
+	
+}
+
+.Text_Purchase {
+	
+	font-size: 25px; 
+}
+
+.col5_Icon {
+	
+	text-align: center;
+}
+
+.col4_Text {
+	
+	text-align: left;
+}
+
+.col2_Icon {
+	
+	text-align: center;
+}
+
+.row2_ThankYou {
+	
+	justify-content: center;
+}
+
+.row3_ThankYou {
+	
+	justify-content: center;
+}
+
+	/*--------AboutUs--------*/
+
+.containeraboutus {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.colourteam {
+    background-color: transparent;
+    margin-bottom: 55px;
+    margin-top: 16px;	
+}
+
+.jumbotronaboutus {
+    margin-top: 20px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.btnab{
+	background-color: red;
+}
+
+.btnab:hover {
+	background-color: indianred;
+	font-color: black;
+}
+
+
+.aboutusvalues {
+    background-color: #E1DFDF;
+    margin-top: 60px;
+    margin-right: 84px;
+	margin-left: 84px;
+
+}
+
+
+
+
+
+
+.container .valuesfromus {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .valuesfromus
+{
+	position: relative;
+	width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container .box 
+{
+	position: relative;
+	width: 280px;
+	height: 400px;
+	margin: 20px 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.container .box .imgBx 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	clip-path: circle(400px at center 100px);
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+.container .box:hover .imgBx
+{
+	clip-path: circle(80px at center 100px);
+	transition-delay: 0s;
+}
+.container .box .imgBx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.dearreader {
+	font-family: allan;
+}
+
+.valuetext {
+	padding-top: 40px;
+	font-family: allan;
+	font-size: 100px;
+	color: #DA0E15;
+}
+
+.ourteamheader {
+	padding-top: 40px;
+	font-family: allan;
+	font-size: 100px;
+	color: #DA0E15;
+}
+
+.meetourteam {
+	font-size: 25px;
+}
+
+.namesab {
+	font-family: allan;
+	color: #000000;
+}
+
+.container .box .content
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 55%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.container .box .content h2
+{
+	margin: 0;
+	padding: 0;
+}
+.container .box .content a
+{
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	padding: 5px;
+	display: inline-block;
+}
+.container .box .content h2,
+.container .box .content p,
+.container .box .content a
+{
+	opacity: 0;
+	transition: 0.5s;
+	transform: translateY(20px);
+}
+.container .box:hover .content h2
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.5s
+}
+.container .box:hover .content p
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.7s
+}
+.container .box:hover .content a
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.9s
+}
+
+
+
+
+
+.aboutusvalues {
+	background-color: #E1DFDF;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+
+	
+	
+	
+}
+
+.valuetext {
+	text-align: center;
+	background-color: transparent;
+}
+	
+
+
+.readertext  {
+font-size:	36px; 
+	color: #000000;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+
+	
+	
+	
+}
+
+
+
+.aboutusvaluestext {
+	
+	fontsize: 24px;
+	color: #333;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#team img {
+margin-top: -50px;
+
+}
+
+#team i{
+	
+	font-size:26px;
+	color: #555;
+	font-family: 'Josefin Sans', sans-serif;
+
+	
+}
+
+
+#team p{
+	font-weight: 500;
+	font-family: 'Josefin Sans', sans-serif;
+
+
+} 
+
+
+#team .card{
+	border-radius: 0;
+	box-shadow: 5px 5px 15px #e74c3c;
+	transition: all 0.3s ease-in;
+	webkit-tranistion: all 0.3s ease-in;
+	moz-transition: all 0.3 ease-in;
+	
+	
+	
+}
+
+#team .card:hover{
+	background: #e74c3c;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 5px 5px 10px #9E9E9E;
+	
+	
+	
+}
+
+#TEAM .card:hover .readertext, #team  .card:hover i{
+	color: #FFF; 
+	
+	
+	
+	
+}
+
+
+
+
+
+.aboutusvalues {
+    background-color: #E1DFDF;
+    margin-top: 60px;
+    margin-right: 84px;
+	margin-left: 84px;
+
+}
 
 
 
