@@ -946,6 +946,47 @@ margin-top: -50px;
 }
 
 
+/*----------------- Cart ------------------*/
+
+.Continuebtn {
+	float: right;
+	margin-right: 137px;
+	background-color: #DA0E15;
+
+}
+.backtostorebtn {
+	background-color: #DA0E15;
+}
+.your-bskt {
+	margin-left: 55px;
+	font-family: allan;
+	color: #DA0E15;
+}
+
+.stock-msg {
+	color: #000000;
+}
+
+body {
+	background-color: #828282
+}
+.basket-cont{
+	border: thin none #000000;
+}
+.total {
+	text-align: right;
+}
+
+.blankctn {
+	border: thin none #000000;
+}
+.CartItems {
+	border: thin solid #000000;
+}
+.CartImg {
+	border: thin solid #000000;
+}
+
 
 
  @media only screen and (min-width: 768px) and (max-width:991px) 
