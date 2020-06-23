@@ -987,6 +987,86 @@ body {
 	border: thin solid #000000;
 }
 
+/*--------Design-choice---------------------------------------*/
+
+.design-paragraph{
+	padding-left: 5px;
+
+}
+
+.design {
+    position: relative;
+	background-color: transparent;
+}
+
+.design-header {
+    font-family: allan;
+    color: #DA0E15;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.taskflow{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+
+}
+
+.taskflow-header {
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.wireframe{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+
+}
+
+.wireframe-header{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.colorcodes-header{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.colorcode {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+}
+
+.fonts-header{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.example{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.designcenter {
+	
+	text-align: center;
+}
 
 
  @media only screen and (min-width: 768px) and (max-width:991px) 
