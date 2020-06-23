@@ -11,4 +11,7 @@
     font-size: 94px;
     text-align: center;
     border-spacing: 0px 26px;
+    height: auto;
+    margin-bottom: 13px;
+    background-image: url(../images/store_background.jpg);
 }

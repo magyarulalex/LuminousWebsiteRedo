@@ -1,4 +1,10 @@
 
+body {
+    background-image: url("../images/body_background.jpg");
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+}
 
 
 /*---------------NAVBAR-------------*/
@@ -273,6 +279,155 @@ line-height: 40px;
 }
 .storeunnacitve {
 	Background-color: grey;
+}
+
+/*------Product page-----*/
+
+.single-product {
+	margin-top: 70px;
+	padding-top: 20px;
+	
+}
+
+.new-arrival {
+	
+	background: #DA0E15;
+	width:50px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+	
+	
+}
+.backtocart-btn {
+	margin-left: 0px;
+	background-color: #DA0E15;
+}
+.Purchase-btn {
+	background-color: #DA0E15;
+}
+
+
+
+.col-md-7 h2 {
+    color: #DA0E15;
+	font-family: allan;
+	
+}
+
+
+ .price {
+	color: #DA0E15;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 20px;
+	
+}
+
+.instock {
+	color: #DA0E15;
+}
+
+
+.avail {
+	color: #363636;
+}
+
+input {
+	
+	border:1px solid;
+	font-weight: bold;
+	height:33px;
+	width: 30px;
+	text-align: center;
+	
+}
+
+.single-product .btn-primary{
+    background: #DA0E15;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+	
+}
+
+.product-description h5 {
+    margin-top: 50px;
+    margin-left: 5px;
+    color: #DA0E15;
+    font-size: x-large;
+	font-family: allan;
+}
+
+.product-description p {
+	
+	margin-top: 30px;
+	margin-left: 5px;
+	
+}
+	
+.sizechoi{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
+	
+
+
+.carousel-item {
+
+   width:100%;
+    
+}
+
+.sizecalculator {
+	
+	background-color: #959393;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 100%;
+	max-height: 100%;
+		
+	
+}
+ 
+
+.sizecal{
+    color: #DA0E15;
+    font-family: allan;
+    font-size: xx-large;
+	text-align: center;
+	
+}
+
+
+
+.img-unisex {
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+
+
+}
+
+.material{
+    position: relative;
+    bottom: 25px;
+	
+}
+
+.background-product {
+	background-color: #E1DFDF;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
 }
 
 
